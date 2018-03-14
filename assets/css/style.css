@@ -70,7 +70,17 @@ body {
 	margin-right: 4px;
 }
 
-
+.topo2 {
+	height: 95px;
+	color: #000;
+}
+.topo2int {
+	width: 100%;
+	max-width: 1040px;
+	height: 95px;
+	margin: auto;
+	background-color: #999;
+}
 
 
 
