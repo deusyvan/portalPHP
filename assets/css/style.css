@@ -106,9 +106,23 @@ body {
 	max-width: 1040px;
 	height: 40px;
 	margin: auto;
-	background-color: #999;
 }
 
+.menu ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
 
+.menu li {
+	height: 40px;
+	line-height: 40px;
+	float: left;
+	padding-left:8px;
+	padding-right: 8px;
+}
 
-
+.menu a {
+	text-decoration: none;
+	color: #FFF;
+}
