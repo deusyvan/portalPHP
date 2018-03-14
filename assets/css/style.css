@@ -79,9 +79,22 @@ body {
 	max-width: 1040px;
 	height: 95px;
 	margin: auto;
-	background-color: #999;
 }
 
+.logo {
+	width: 230px;
+	height: 90px;
+	float: left;
+	margin-top: 5px;
+}
+
+.topo2 .banner {
+	width:650px;
+	height: 80px;
+	float: right;
+	margin-top: 7px;
+	background-color: red;
+}
 
 
 
