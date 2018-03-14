@@ -122,7 +122,39 @@ body {
 	padding-right: 8px;
 }
 
+.menu li:hover .submenu {
+	display: block;
+}
+
 .menu a {
 	text-decoration: none;
 	color: #FFF;
 }
+
+.submenu {
+	width: 150px;
+	height: 150px;
+	background-color: #000;
+	position: absolute;
+	display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
