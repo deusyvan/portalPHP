@@ -133,13 +133,21 @@ body {
 
 .submenu {
 	width: 150px;
-	height: 150px;
-	background-color: #000;
+	background-color: #FF0000;
 	position: absolute;
 	display: none;
 }
 
+.submenuitem {
+	width: 140px;
+	height: 30px;
+	line-height: 30px;
+	padding-left: 10px;
+}
 
+.submenuitem:hover {
+	background-color: #FF5555;
+}
 
 
 
