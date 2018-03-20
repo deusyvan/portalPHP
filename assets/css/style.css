@@ -210,6 +210,7 @@ body {
 .widget {
 	border: 1px solid #CCC;
 	background-color: #FFF;
+	margin-bottom: 10px;
 }
 
 .widget_titulo {
@@ -221,6 +222,11 @@ body {
 	font-size: 14px;
 }
 
+.widget_conteudo {
+	text-align: center;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
 
 
 
