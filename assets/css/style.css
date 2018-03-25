@@ -311,6 +311,9 @@ body {
 
 .noticiaitem {
 	text-align: left;
+	height: 88px;
+	margin-top: 7px;
+	margin-bottom: 7px;
 }
 
 .noticiaimg {
