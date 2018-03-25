@@ -28,11 +28,10 @@ function passarSlide(){
 	if(slideItem == 0) {
 		document.getElementsByClassName("bolinha")[slideItem + 3].style.backgroundColor = "#DDD";
 	}
-	
 }
 
 function mudarSlide(pos) {
 	slideItem = pos;
 	var slidewidth = document.getElementById("slideshow").offsetWidth;
-	document.getElementsByClassName("slideshowarea")[0].style.marginLeft = "-"+(slidewidth * slideItem)+"px";	
+	document.getElementsByClassName("slideshowarea")[0].style.marginLeft = "-"+(slidewidth * slideItem)+"px";
 }
