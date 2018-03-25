@@ -14,29 +14,26 @@ window.onload = function () {
 
 function passarSlide(){
 	var slidewidth = document.getElementById("slideshow").offsetWidth;
-	
+	document.getElementsByClassName("bolinha")[slideItem].style.backgroundColor = "#DDD";
 	if(slideItem >= 3) {
 		slideItem = 0;
 		
 	} else {
-		document.getElementsByClassName("bolinha")[slideItem].style.backgroundColor = "#DDD";
 		slideItem++;
 	}
 	
 	document.getElementsByClassName("slideshowarea")[0].style.marginLeft = "-"+(slidewidth * slideItem)+"px";
 	document.getElementsByClassName("bolinha")[slideItem].style.backgroundColor = "#000"; 
-	if(slideItem == 0) {
-		document.getElementsByClassName("bolinha")[slideItem + 3].style.backgroundColor = "#DDD";
-	}
+	
 }
 
 function mudarSlide(pos) {
 	slideItem = pos;
 	var slidewidth = document.getElementById("slideshow").offsetWidth;
 	document.getElementsByClassName("slideshowarea")[0].style.marginLeft = "-"+(slidewidth * slideItem)+"px";
-	document.getElementsByClassName("bolinha")[slideItem].style.backgroundColor = "#000"; 
-	
-	document.getElementsByClassName("bolinha")[slideItem + 1].style.backgroundColor = "#DDD";
-	document.getElementsByClassName("bolinha")[slideItem + 2].style.backgroundColor = "#DDD";
-	document.getElementsByClassName("bolinha")[slideItem + 3].style.backgroundColor = "#DDD";
+	document.getElementsByClassName("bolinha")[0].style.backgroundColor ="#DDD";
+	document.getElementsByClassName("bolinha")[1].style.backgroundColor ="#DDD";
+	document.getElementsByClassName("bolinha")[2].style.backgroundColor ="#DDD";
+	document.getElementsByClassName("bolinha")[3].style.backgroundColor ="#DDD";
+	document.getElementsByClassName("bolinha")[slideItem].style.backgroundColor ="#000";
 }
