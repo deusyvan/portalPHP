@@ -34,4 +34,9 @@ function mudarSlide(pos) {
 	slideItem = pos;
 	var slidewidth = document.getElementById("slideshow").offsetWidth;
 	document.getElementsByClassName("slideshowarea")[0].style.marginLeft = "-"+(slidewidth * slideItem)+"px";
+	document.getElementsByClassName("bolinha")[slideItem].style.backgroundColor = "#000"; 
+	
+	document.getElementsByClassName("bolinha")[slideItem + 1].style.backgroundColor = "#DDD";
+	document.getElementsByClassName("bolinha")[slideItem + 2].style.backgroundColor = "#DDD";
+	document.getElementsByClassName("bolinha")[slideItem + 3].style.backgroundColor = "#DDD";
 }
