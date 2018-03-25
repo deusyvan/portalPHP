@@ -328,7 +328,8 @@ body {
 	float: left;
 	margin-left: 6px;
 	font-size: 16px;
-    width: 226px;	
+    width: 226px;
+    color: 	#000;
 }
 
 .noticiainfo {
@@ -337,6 +338,25 @@ body {
 	margin-left: 6px;
 	color: #999;
 	float: left;
+}
+
+.noticiabig {
+	margin-left: 10px;
+}
+
+.noticiabig .noticiaimg {
+	width: 384px;
+	height: 222px;
+}
+
+.noticiabig .noticiaimg img{
+    width: 384px;
+    height: 222px;
+}
+
+.noticiabig .noticiatitulo {
+	width: 384px;
+    font-size: 35px;
 }
 
 
