@@ -359,6 +359,10 @@ body {
     font-size: 35px;
 }
 
+.menumobile {
+	display: none;
+}
+
 @media only screen and (min-width:906px) and (max-width:1057px){
 	
 	.topoint,
@@ -367,6 +371,10 @@ body {
 	.ultimasnoticiasint,
 	.containerint {
 		max-width: 890px;
+	}
+	
+	#menu {
+		display:block !important;
 	}
 	
 	.leftsite {
@@ -403,6 +411,10 @@ body {
 	
 	.topo2 .banner {
 		display: none;
+	}
+	
+	#menu {
+		display:block !important;
 	}
 	
 	.logo {
@@ -464,8 +476,29 @@ body {
 		margin: auto;
 	}
 	
-	.menuint {
+	.menumobile {
+		display: block;
+	}
+	
+	.menu ul {
+		position: absolute;
+		background-color: red;
+		z-index: 10;
 		display: none;
+	}
+	
+	.menu li {
+		float: none;
+		height: auto;
+	}
+	
+	.menu li img {
+		display: none;
+	}
+	
+	.submenu {
+		position: static;
+		display: block;
 	}
 	
 	.ultimasnoticias {

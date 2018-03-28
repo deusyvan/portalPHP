@@ -37,3 +37,14 @@ function mudarSlide(pos) {
 	document.getElementsByClassName("bolinha")[3].style.backgroundColor ="#DDD";
 	document.getElementsByClassName("bolinha")[slideItem].style.backgroundColor ="#000";
 }
+
+function toggleMenu(){
+	
+	var menu = document.getElementById("menu");
+	
+	if(menu.style.display == 'none' || menu.style.display == ''){
+		menu.style.display = "block";
+	} else {
+		menu.style.display = "none";
+	}
+}
